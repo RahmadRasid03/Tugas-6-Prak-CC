@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import { fileURLToPath } from 'url';
 import path from 'path';
-import userRoutes from './routes/noteRoutes.js'; // Sesuaikan path dengan struktur proyekmu
+import userRoutes from './routes/noteRoutes.js'; // Sesuaikan path dengan struktur proyek
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
